@@ -9,4 +9,4 @@ from django.http import HttpResponse
 # send email
 # transform data
 def say_hello(request):
-    return render(request, 'hello.html', {'name': 'Django Template'})
+    return render(request, 'hello.html', {'name': ''})
